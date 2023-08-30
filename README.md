@@ -8,7 +8,7 @@ Jenkins Master and Slave configuration
 
 Procedure:
 1. Goto Manage Nodes
-    * Manage Jenkins --> Manage Nodes  --> New Node
+    * Manage Jenkins --> Nodes  --> New Node
 2. Add the node name as Permanent Agent
 3. Provide below information to add Jenkins agent Name: uniquely identifies an agent within this Jenkins installation Description: Number of executors: 2  Remote root directory: /home/ec2-user/maven-agent Labels: Labels (or tags) are used to group multiple agents into one logical group. Usage:
     * Use this node as much as possible
